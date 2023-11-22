@@ -117,24 +117,27 @@ body {
 
 .buy-btn {
   cursor: pointer;
-  border: none;
-  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  padding: 0;
+  background: transparent;
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
+  border-image-slice: 1;
   display: flex;
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  padding: 1px;
 }
 
 .buy-btn__text {
   padding: 20px 110px;
   color: #F6F4F5;
+  background: linear-gradient(180deg, #BC10D8 0%, rgba(80, 0, 250, 0.93) 100%);
 }
 
 .buy-btn__price {
   padding: 20px 105px;
-  background-color: #F6F4F5;
 }
+
 
 .buy__text {
   padding-top: 6px;
